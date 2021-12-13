@@ -67,7 +67,7 @@ public class TodoUI extends UI {
 
 		//Add multiple items
 		combo.setCaption("Enter your product");
-		combo.setItems( "Product1", "Product2", "Product3");
+		combo.setItems( "product1", "product2", "product3");
 		combo.addValueChangeListener(event -> {
 			if (event.getValue() == null) {
 				selectedProduct = "";
